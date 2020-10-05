@@ -1,12 +1,8 @@
-# COVID Room
+# COVID Room Project
 
-COVID Room.
+Youtube Video: https://youtu.be/sEAK8wXMNoM
 
-Built with [A-Frame](https://aframe.io).
+Website: https://luzardo99.github.io/COVID-VR-Room/
 
-## Setup
 
-```sh
-npm install
-npm run start
-```
+
