@@ -1,0 +1,354 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 3551,
+      "max": [
+        3.5148420333862305,
+        18.699224472045898,
+        3.5936801433563232
+      ],
+      "min": [
+        -3.6725201606750488,
+        1.9073486328125e-06,
+        -3.5936820507049561
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 42612,
+      "componentType": 5126,
+      "count": 3551,
+      "max": [
+        1,
+        1,
+        1
+      ],
+      "min": [
+        -1,
+        -1,
+        -1
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 3551,
+      "max": [
+        1.0000158548355103,
+        1
+      ],
+      "min": [
+        1.5884637832641602e-05,
+        0
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 6870,
+      "max": [
+        3550
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 85224,
+      "componentType": 5126,
+      "count": 3570,
+      "max": [
+        3.5211615562438965,
+        18.699224472045898,
+        3.6000003814697266
+      ],
+      "min": [
+        -3.6788392066955566,
+        1.9073486328125e-06,
+        -3.6000015735626221
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 128064,
+      "componentType": 5126,
+      "count": 3570,
+      "max": [
+        1,
+        1,
+        1
+      ],
+      "min": [
+        -1,
+        -1,
+        -1
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 28408,
+      "componentType": 5126,
+      "count": 3570,
+      "max": [
+        1.0000158548355103,
+        1
+      ],
+      "min": [
+        1.5884637832641602e-05,
+        -5.9604644775390625e-08
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 27480,
+      "componentType": 5125,
+      "count": 6870,
+      "max": [
+        3569
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "SergioCG (https://sketchfab.com/SergioCG)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/redbull-2b4ec393373f4576bcd97441d0c2219c",
+      "title": "RedBull"
+    },
+    "generator": "Sketchfab-9.0.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 54960,
+      "byteOffset": 0,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 56968,
+      "byteOffset": 54960,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 170904,
+      "byteOffset": 111928,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 282832,
+      "uri": "scene.bin"
+    }
+  ],
+  "images": [
+    {
+      "uri": "textures/TEXTURA_REDBULL_ETIQUETA_baseColor.jpeg"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "name": "TEXTURA_REDBULL_ETIQUETA",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "baseColorTexture": {
+          "index": 0,
+          "texCoord": 0
+        },
+        "metallicFactor": 1,
+        "roughnessFactor": 0.20235576309213288
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Redbull003_TEXTURA_REDBULL_ETIQUETA_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Redbull004_TEXTURA_REDBULL_ETIQUETA_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 5,
+            "POSITION": 4,
+            "TEXCOORD_0": 6
+          },
+          "indices": 7,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "name": "RootNode (gltf orientation matrix)",
+      "rotation": [
+        -0.70710678118654746,
+        -0,
+        -0,
+        0.70710678118654757
+      ]
+    },
+    {
+      "children": [
+        2
+      ],
+      "name": "RootNode (model correction matrix)"
+    },
+    {
+      "children": [
+        3
+      ],
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        -1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "name": "RedBull.fbx"
+    },
+    {
+      "children": [
+        4,
+        6
+      ],
+      "name": "RootNode"
+    },
+    {
+      "children": [
+        5
+      ],
+      "matrix": [
+        0.99908553955219015,
+        0,
+        0.042756106671552808,
+        0,
+        0,
+        1,
+        0,
+        0,
+        -0.042756106671552808,
+        0,
+        0.99908553955219015,
+        0,
+        -7.2122427809517831e-05,
+        0,
+        0.0033708366099745035,
+        1
+      ],
+      "name": "Redbull003"
+    },
+    {
+      "mesh": 0,
+      "name": "Redbull003_TEXTURA_REDBULL_ETIQUETA_0"
+    },
+    {
+      "children": [
+        7
+      ],
+      "matrix": [
+        0.87531057460429518,
+        -0.16848834374356172,
+        0.45325828840568383,
+        0,
+        -0.45983221242872596,
+        -7.7715611723760958e-15,
+        0.88800582003323791,
+        0,
+        -0.14961862985204008,
+        -0.98570364614449479,
+        -0.07747636787206047,
+        0,
+        0.72176837921142578,
+        3.3812088966369629,
+        -16.79368782043457,
+        1
+      ],
+      "name": "Redbull004"
+    },
+    {
+      "mesh": 1,
+      "name": "Redbull004_TEXTURA_REDBULL_ETIQUETA_0"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "OSG_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    }
+  ]
+}
+
